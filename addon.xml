@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.breakthestate" name="Break The State" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Break The State</summary>
+    <description lang="en">The State is an illegitimate organization based on violence and theft that has convinced otherwise free people that it’s existence is not only benevolent, but necessary in maintaining a prosperous, peaceful, and free society. I’m here to tell you, that’s a lie. So long as there is a State, there will be no prosperity. So long as there is a State, there will be no peace. So long as there is a State, there will be no freedom. So, let’s break it! New episodes every other Tuesday. Support this podcast: https://anchor.fm/breakthestate/support</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/</source>
+    <website>https://www.breakthestate.net/podcast</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
